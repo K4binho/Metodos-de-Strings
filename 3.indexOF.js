@@ -4,10 +4,10 @@
 
 const email = "console.piu@gmail.com";//email
 
-const posicaoArroba = email.indexOf("@");//Mostra a posição do @ = 11;
+const posicaoDoArroba = email.indexOf("@");//Mostra a posição do @ = 11;
 
-    if(email.includes("@") === true){ //Verifica se tem o "@"
-         if(email.includes(".",posicaoArroba) === true){//Verifica se tem o "." dps do "@"
+    if(email.includes("@") === true){ //Verifica se tem o "@" no email
+         if(email.includes(".",posicaoArroba) === true){//Verifica se tem "." dps do "@"
 
              console.log("EMAIL VÁLIDO!");//Válido
 
